@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="26587" started-at="2021-03-14T09:41:44Z" finished-at="2021-03-14T09:42:10Z">
+    <groups>
+    </groups>
+    <test name="User" duration-ms="10315" started-at="2021-03-14T09:41:44Z" finished-at="2021-03-14T09:41:54Z">
+      <class name="com.nagp.testcases.TC01_Users">
+        <test-method status="PASS" signature="createNewUser(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.nagp.testcases.TC01_Users@210366b4]" name="createNewUser" duration-ms="9737" started-at="2021-03-14T09:41:44Z" description="Creating new User" data-provider="CreateUser" finished-at="2021-03-14T09:41:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qa1213]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qas123w@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123123123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewUser -->
+      </class> <!-- com.nagp.testcases.TC01_Users -->
+    </test> <!-- User -->
+    <test name="Quotes" duration-ms="8017" started-at="2021-03-14T09:41:54Z" finished-at="2021-03-14T09:42:02Z">
+      <class name="com.nagp.testcases.TC02_Quotes">
+        <test-method status="PASS" signature="verifyToAddAQuote(java.lang.String, java.lang.String)[pri:1, instance:com.nagp.testcases.TC02_Quotes@50b494a6]" name="verifyToAddAQuote" duration-ms="2309" started-at="2021-03-14T09:41:54Z" description="Add new Quote to your list" data-provider="post" finished-at="2021-03-14T09:41:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sanjeet]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jesaa hello world]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyToAddAQuote -->
+        <test-method status="PASS" signature="verifyToHideTheQuotes()[pri:2, instance:com.nagp.testcases.TC02_Quotes@50b494a6]" name="verifyToHideTheQuotes" duration-ms="1791" started-at="2021-03-14T09:41:56Z" description="Hide the added Quote" finished-at="2021-03-14T09:41:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyToHideTheQuotes -->
+        <test-method status="PASS" signature="verifyUnHideTheQuotes()[pri:3, instance:com.nagp.testcases.TC02_Quotes@50b494a6]" name="verifyUnHideTheQuotes" duration-ms="1939" started-at="2021-03-14T09:41:58Z" description="UnHide the quotes" finished-at="2021-03-14T09:42:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUnHideTheQuotes -->
+        <test-method status="PASS" signature="verifyToMakeFavouriteQuotes()[pri:4, instance:com.nagp.testcases.TC02_Quotes@50b494a6]" name="verifyToMakeFavouriteQuotes" duration-ms="1910" started-at="2021-03-14T09:42:00Z" description="Add quote into your favourite list" finished-at="2021-03-14T09:42:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyToMakeFavouriteQuotes -->
+      </class> <!-- com.nagp.testcases.TC02_Quotes -->
+    </test> <!-- Quotes -->
+    <test name="Activity" duration-ms="8216" started-at="2021-03-14T09:42:02Z" finished-at="2021-03-14T09:42:10Z">
+      <class name="com.nagp.testcases.TC03_Activity">
+        <test-method status="PASS" signature="getAllActivities()[pri:1, instance:com.nagp.testcases.TC03_Activity@22a67b4]" name="getAllActivities" duration-ms="2195" started-at="2021-03-14T09:42:02Z" description="gettting all activity" finished-at="2021-03-14T09:42:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllActivities -->
+        <test-method status="PASS" signature="followActivity()[pri:2, instance:com.nagp.testcases.TC03_Activity@22a67b4]" name="followActivity" duration-ms="1976" started-at="2021-03-14T09:42:04Z" description="Follow the Activity" finished-at="2021-03-14T09:42:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- followActivity -->
+        <test-method status="PASS" signature="unfollowActivity()[pri:3, instance:com.nagp.testcases.TC03_Activity@22a67b4]" name="unfollowActivity" duration-ms="1741" started-at="2021-03-14T09:42:06Z" description="UnFollow the activity" finished-at="2021-03-14T09:42:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unfollowActivity -->
+        <test-method status="PASS" signature="deleteActivity()[pri:4, instance:com.nagp.testcases.TC03_Activity@22a67b4]" name="deleteActivity" duration-ms="2295" started-at="2021-03-14T09:42:08Z" description="delete the activity" finished-at="2021-03-14T09:42:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteActivity -->
+      </class> <!-- com.nagp.testcases.TC03_Activity -->
+    </test> <!-- Activity -->
+  </suite> <!-- Suite -->
+</testng-results>

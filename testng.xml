@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.nagp.config.DotTestListener" />
+	</listeners>
+	<test name="User">
+		<classes>
+			<class name="com.nagp.testcases.TC01_Users" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Quotes">
+		<classes>
+			<class name="com.nagp.testcases.TC02_Quotes" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Activity">
+		<classes>
+			<class name="com.nagp.testcases.TC03_Activity" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

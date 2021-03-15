@@ -1,0 +1,100 @@
+2020-11-15 20:14:48 INFO  TC01_Users:52 - Creating new user
+2020-11-15 20:14:55 INFO  TC01_Users:84 - updating user details
+2020-11-15 20:14:55 ERROR TC01_Users:91 - Exception java.lang.IllegalArgumentException: Header value cannot be null
+2020-11-15 20:14:55 ERROR TC01_Users:92 - Properties file not found.
+2020-11-15 20:14:55 INFO  TC01_Users:107 - getting user details
+2020-11-15 20:15:01 INFO  TC02_Quotes:74 - Validating duplicate Post ID
+2020-11-15 20:15:03 INFO  TC02_Quotes:89 - Validating duplicate Post ID
+2020-11-15 20:15:05 INFO  TC02_Quotes:105 - Validating duplicate Post ID
+2020-11-15 20:51:26 INFO  TC01_Users:55 - Creating new user
+2020-11-15 20:51:33 INFO  TC01_Users:85 - updating user details
+2020-11-15 20:51:33 ERROR TC01_Users:92 - Exception java.lang.IllegalArgumentException: Header value cannot be null
+2020-11-15 20:51:33 ERROR TC01_Users:93 - Properties file not found.
+2020-11-15 20:51:33 INFO  TC01_Users:108 - getting user details
+2021-03-14 10:27:14 INFO  TC01_Users:52 - Creating new user
+2021-03-14 10:27:22 ERROR TC01_Users:58 - Exception javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+2021-03-14 10:27:22 ERROR TC01_Users:59 - Properties file not found.
+2021-03-14 10:27:22 INFO  TC01_Users:82 - updating user details
+2021-03-14 10:27:22 ERROR TC01_Users:89 - Exception java.lang.IllegalArgumentException: Header value cannot be null
+2021-03-14 10:27:22 ERROR TC01_Users:90 - Properties file not found.
+2021-03-14 10:27:22 INFO  TC01_Users:105 - getting user details
+2021-03-14 10:27:23 ERROR TC01_Users:112 - Exception javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+2021-03-14 10:27:23 ERROR TC01_Users:113 - Properties file not found.
+2021-03-14 10:27:24 ERROR TC02_Quotes:60 - Exception javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+2021-03-14 10:27:24 ERROR TC02_Quotes:61 - Properties file not found.
+2021-03-14 10:27:25 ERROR TC02_Quotes:76 - Exception javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+2021-03-14 10:27:25 ERROR TC02_Quotes:77 - Properties file not found.
+2021-03-14 10:27:25 ERROR TC02_Quotes:91 - Exception javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+2021-03-14 10:27:25 ERROR TC02_Quotes:92 - Properties file not found.
+2021-03-14 10:27:26 ERROR TC02_Quotes:107 - Exception javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+2021-03-14 10:27:26 ERROR TC02_Quotes:108 - Properties file not found.
+2021-03-14 10:27:27 ERROR TC03_Activity:45 - Exception javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+2021-03-14 10:27:27 ERROR TC03_Activity:46 - Response not found.
+2021-03-14 10:27:28 ERROR TC03_Activity:60 - Exception javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+2021-03-14 10:27:28 ERROR TC03_Activity:61 - Response not found.
+2021-03-14 10:27:28 ERROR TC03_Activity:77 - Exception javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+2021-03-14 10:27:28 ERROR TC03_Activity:78 - Response not found.
+2021-03-14 10:27:28 ERROR TC03_Activity:94 - Exception java.lang.NullPointerException
+2021-03-14 10:27:28 ERROR TC03_Activity:95 - Response not found.
+2021-03-14 10:29:41 INFO  TC01_Users:52 - Creating new user
+2021-03-14 10:29:47 ERROR TC01_Users:58 - Exception javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+2021-03-14 10:29:47 ERROR TC01_Users:59 - Properties file not found.
+2021-03-14 10:31:14 INFO  TC01_Users:51 - Creating new user
+2021-03-14 10:36:43 INFO  TC01_Users:51 - Creating new user
+2021-03-14 10:36:50 ERROR TC01_Users:57 - Exception javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+2021-03-14 10:36:50 ERROR TC01_Users:58 - Properties file not found.
+2021-03-14 10:37:26 INFO  TC01_Users:51 - Creating new user
+2021-03-14 10:37:32 ERROR TC01_Users:57 - Exception javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+2021-03-14 10:37:32 ERROR TC01_Users:58 - Properties file not found.
+2021-03-14 10:37:59 INFO  TC01_Users:51 - Creating new user
+2021-03-14 10:44:22 INFO  TC01_Users:51 - Creating new user
+2021-03-14 10:44:28 ERROR TC01_Users:57 - Exception javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+2021-03-14 10:44:28 ERROR TC01_Users:58 - Properties file not found.
+2021-03-14 10:45:34 ERROR TC02_Quotes:60 - Exception javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+2021-03-14 10:45:34 ERROR TC02_Quotes:61 - Properties file not found.
+2021-03-14 10:45:35 ERROR TC02_Quotes:76 - Exception javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+2021-03-14 10:45:35 ERROR TC02_Quotes:77 - Properties file not found.
+2021-03-14 10:45:36 ERROR TC02_Quotes:91 - Exception javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+2021-03-14 10:45:36 ERROR TC02_Quotes:92 - Properties file not found.
+2021-03-14 10:45:36 ERROR TC02_Quotes:107 - Exception javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+2021-03-14 10:45:36 ERROR TC02_Quotes:108 - Properties file not found.
+2021-03-14 10:49:13 INFO  TC01_Users:51 - Creating new user
+2021-03-14 10:49:19 ERROR TC01_Users:57 - Exception javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+2021-03-14 10:49:19 ERROR TC01_Users:58 - Properties file not found.
+2021-03-14 10:50:05 ERROR TC02_Quotes:60 - Exception javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+2021-03-14 10:50:05 ERROR TC02_Quotes:61 - Properties file not found.
+2021-03-14 10:50:06 ERROR TC02_Quotes:76 - Exception javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+2021-03-14 10:50:06 ERROR TC02_Quotes:77 - Properties file not found.
+2021-03-14 10:50:06 ERROR TC02_Quotes:91 - Exception javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+2021-03-14 10:50:06 ERROR TC02_Quotes:92 - Properties file not found.
+2021-03-14 10:50:07 ERROR TC02_Quotes:107 - Exception javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+2021-03-14 10:50:07 ERROR TC02_Quotes:108 - Properties file not found.
+2021-03-14 11:00:40 ERROR TC02_Quotes:60 - Exception javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+2021-03-14 11:00:41 ERROR TC02_Quotes:61 - Properties file not found.
+2021-03-14 11:00:42 ERROR TC02_Quotes:76 - Exception javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+2021-03-14 11:00:42 ERROR TC02_Quotes:77 - Properties file not found.
+2021-03-14 11:00:42 ERROR TC02_Quotes:91 - Exception javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+2021-03-14 11:00:42 ERROR TC02_Quotes:92 - Properties file not found.
+2021-03-14 11:00:43 ERROR TC02_Quotes:107 - Exception javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+2021-03-14 11:00:43 ERROR TC02_Quotes:108 - Properties file not found.
+2021-03-14 11:35:28 ERROR TC02_Quotes:77 - Exception javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+2021-03-14 11:35:28 ERROR TC02_Quotes:78 - Properties file not found.
+2021-03-14 11:35:28 ERROR TC02_Quotes:92 - Exception javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+2021-03-14 11:35:28 ERROR TC02_Quotes:93 - Properties file not found.
+2021-03-14 11:35:29 ERROR TC02_Quotes:108 - Exception javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+2021-03-14 11:35:29 ERROR TC02_Quotes:109 - Properties file not found.
+2021-03-14 11:37:00 INFO  TC01_Users:51 - Creating new user
+2021-03-14 11:37:28 INFO  TC01_Users:51 - Creating new user
+2021-03-14 11:37:42 INFO  TC02_Quotes:75 - Validating duplicate Post ID
+2021-03-14 11:37:44 INFO  TC02_Quotes:90 - Validating duplicate Post ID
+2021-03-14 11:37:46 INFO  TC02_Quotes:106 - Validating duplicate Post ID
+2021-03-14 15:09:22 INFO  TC01_Users:51 - Creating new user
+2021-03-14 15:09:37 INFO  TC02_Quotes:75 - Validating duplicate Post ID
+2021-03-14 15:09:39 INFO  TC02_Quotes:90 - Validating duplicate Post ID
+2021-03-14 15:09:41 INFO  TC02_Quotes:106 - Validating duplicate Post ID
+2021-03-14 15:11:44 INFO  TC01_Users:51 - Creating new user
+2021-03-14 15:11:58 INFO  TC02_Quotes:75 - Validating duplicate Post ID
+2021-03-14 15:12:00 INFO  TC02_Quotes:90 - Validating duplicate Post ID
+2021-03-14 15:12:02 INFO  TC02_Quotes:106 - Validating duplicate Post ID
+2021-03-14 15:23:28 INFO  DotTestListener:39 - *** Test Suite User started ***
+2021-03-14 15:26:45 INFO  DotTestListener:35 - *** Test Suite User started ***
