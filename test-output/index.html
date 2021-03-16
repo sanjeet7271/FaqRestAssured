@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">9 methods,   9 passed</span>
+                    <span class="method-stats">11 methods, 1 failed,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.nagp.testcases.TC01_Users" hash-for-method="updateTheUser(qa12123, sanjeet.aot1@gmail.com, 12312345, Twitter_Username, Facebook_name, Twitter)">updateTheUser(qa12123, sanjeet.aot1@gmail.com, 12312345, Twitter_Username, Facebook_name, Twitter)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -132,6 +146,11 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.nagp.testcases.TC01_Users" hash-for-method="verifyToGetUser">verifyToGetUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.nagp.testcases.TC02_Quotes" hash-for-method="verifyToHideTheQuotes">verifyToHideTheQuotes</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -157,6 +176,28 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.nagp.testcases.TC01_Users</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateTheUser(qa12123, sanjeet.aot1@gmail.com, 12312345, Twitter_Username, Facebook_name, Twitter)">
+                  </a> <!-- updateTheUser(qa12123, sanjeet.aot1@gmail.com, 12312345, Twitter_Username, Facebook_name, Twitter) -->
+                  <span class="method-name">updateTheUser</span>
+                  <span class="parameters">(qa12123, sanjeet.aot1@gmail.com, 12312345, Twitter_Username, Facebook_name, Twitter)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Properties file not found.
+	at com.nagp.testcases.TC01_Users.updateTheUser(TC01_Users.java:90)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Updating user details)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -171,6 +212,15 @@
                   <span class="parameters">(qa1213, qas123w@gmail.com, 123123123)</span>
                   <em>
 (Creating new User)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyToGetUser">
+                  </a> <!-- verifyToGetUser -->
+                  <span class="method-name">verifyToGetUser</span>
+                  <em>
+(get user details)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -332,48 +382,56 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(9);
+data.addRows(11);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'createNewUser')
 data.setCell(0, 2, 'com.nagp.testcases.TC01_Users')
-data.setCell(0, 3, 9737);
+data.setCell(0, 3, 12084);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyToAddAQuote')
-data.setCell(1, 2, 'com.nagp.testcases.TC02_Quotes')
-data.setCell(1, 3, 2309);
+data.setCell(1, 1, 'verifyToGetUser')
+data.setCell(1, 2, 'com.nagp.testcases.TC01_Users')
+data.setCell(1, 3, 3244);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'deleteActivity')
-data.setCell(2, 2, 'com.nagp.testcases.TC03_Activity')
-data.setCell(2, 3, 2295);
+data.setCell(2, 1, 'verifyToAddAQuote')
+data.setCell(2, 2, 'com.nagp.testcases.TC02_Quotes')
+data.setCell(2, 3, 3193);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'getAllActivities')
-data.setCell(3, 2, 'com.nagp.testcases.TC03_Activity')
-data.setCell(3, 3, 2195);
+data.setCell(3, 1, 'verifyToMakeFavouriteQuotes')
+data.setCell(3, 2, 'com.nagp.testcases.TC02_Quotes')
+data.setCell(3, 3, 3113);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'followActivity')
+data.setCell(4, 1, 'getAllActivities')
 data.setCell(4, 2, 'com.nagp.testcases.TC03_Activity')
-data.setCell(4, 3, 1976);
+data.setCell(4, 3, 2957);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'verifyUnHideTheQuotes')
+data.setCell(5, 1, 'verifyToHideTheQuotes')
 data.setCell(5, 2, 'com.nagp.testcases.TC02_Quotes')
-data.setCell(5, 3, 1939);
+data.setCell(5, 3, 2940);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'verifyToMakeFavouriteQuotes')
+data.setCell(6, 1, 'verifyUnHideTheQuotes')
 data.setCell(6, 2, 'com.nagp.testcases.TC02_Quotes')
-data.setCell(6, 3, 1910);
+data.setCell(6, 3, 2822);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'verifyToHideTheQuotes')
-data.setCell(7, 2, 'com.nagp.testcases.TC02_Quotes')
-data.setCell(7, 3, 1791);
+data.setCell(7, 1, 'unfollowActivity')
+data.setCell(7, 2, 'com.nagp.testcases.TC03_Activity')
+data.setCell(7, 3, 2763);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'unfollowActivity')
+data.setCell(8, 1, 'deleteActivity')
 data.setCell(8, 2, 'com.nagp.testcases.TC03_Activity')
-data.setCell(8, 3, 1741);
+data.setCell(8, 3, 2294);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'followActivity')
+data.setCell(9, 2, 'com.nagp.testcases.TC03_Activity')
+data.setCell(9, 3, 2205);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'updateTheUser')
+data.setCell(10, 2, 'com.nagp.testcases.TC01_Users')
+data.setCell(10, 3, 14);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 25 seconds</span>
+              <span class="suite-total-time">Total running time: 37 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -404,43 +462,53 @@ return data;
                 <span class="method-name">createNewUser(qa1213, qas123w@gmail.com, 123123123)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">updateTheUser(qa12123, sanjeet.aot1@gmail.com, 12312345, Twitter_Username, Facebook_name, Twitter)</span>
+                <span class="method-start">12140 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyToGetUser</span>
+                <span class="method-start">12160 ms</span>
+              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.nagp.testcases.TC02_Quotes</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">verifyToAddAQuote(sanjeet, Jesaa hello world)</span>
-                <span class="method-start">9823 ms</span>
+                <span class="method-start">15516 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyToHideTheQuotes</span>
-                <span class="method-start">12135 ms</span>
+                <span class="method-start">18711 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyUnHideTheQuotes</span>
-                <span class="method-start">13931 ms</span>
+                <span class="method-start">21653 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyToMakeFavouriteQuotes</span>
-                <span class="method-start">15872 ms</span>
+                <span class="method-start">24478 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.nagp.testcases.TC03_Activity</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">getAllActivities</span>
-                <span class="method-start">17800 ms</span>
+                <span class="method-start">27602 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">followActivity</span>
-                <span class="method-start">19996 ms</span>
+                <span class="method-start">30565 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">unfollowActivity</span>
-                <span class="method-start">21974 ms</span>
+                <span class="method-start">32772 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">deleteActivity</span>
-                <span class="method-start">23717 ms</span>
+                <span class="method-start">35536 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

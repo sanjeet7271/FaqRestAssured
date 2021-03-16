@@ -5,35 +5,9 @@
     <classes>
       <class name="com.nagp.testcases.TC01_Users">
         <methods>
-          <include name="verifyToGetUser"/>
           <include name="updateTheUser" invocation-numbers="0"/>
-          <include name="createNewUser" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.nagp.testcases.TC01_Users -->
     </classes>
   </test> <!-- User(failed) -->
-  <test thread-count="5" name="Quotes(failed)">
-    <classes>
-      <class name="com.nagp.testcases.TC02_Quotes">
-        <methods>
-          <include name="verifyToHideTheQuotes"/>
-          <include name="verifyUnHideTheQuotes"/>
-          <include name="verifyToMakeFavouriteQuotes"/>
-          <include name="verifyToAddAQuote" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- com.nagp.testcases.TC02_Quotes -->
-    </classes>
-  </test> <!-- Quotes(failed) -->
-  <test thread-count="5" name="Activity(failed)">
-    <classes>
-      <class name="com.nagp.testcases.TC03_Activity">
-        <methods>
-          <include name="getAllActivities"/>
-          <include name="deleteActivity"/>
-          <include name="unfollowActivity"/>
-          <include name="followActivity"/>
-        </methods>
-      </class> <!-- com.nagp.testcases.TC03_Activity -->
-    </classes>
-  </test> <!-- Activity(failed) -->
 </suite> <!-- Failed suite [Suite] -->

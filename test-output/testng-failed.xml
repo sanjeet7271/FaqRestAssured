@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="User(failed)">
     <classes>
-      <class name="com.nagp.testcases.TC02_Quotes">
+      <class name="com.nagp.testcases.TC01_Users">
         <methods>
-          <include name="verifyToHideTheQuotes"/>
-          <include name="verifyUnHideTheQuotes"/>
-          <include name="verifyToMakeFavouriteQuotes"/>
+          <include name="updateTheUser" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.nagp.testcases.TC02_Quotes -->
+      </class> <!-- com.nagp.testcases.TC01_Users -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- User(failed) -->
+</suite> <!-- Failed suite [Suite] -->
